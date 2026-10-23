@@ -1,5 +1,23 @@
 # Release checksums
 
+## 1.0.0+4
+
+```text
+8e1f1e807142a1cbcc0016681370557c37fb662ecd22d53afc5fbb70765c9a5f  Quisora-x64-1.0.0-4-Installer.exe
+30098a77f453ffc7060a5b4b0cc4957166c2b5fd4fca721e9189c863d6cd0679  Quisora-x64-1.0.0-4-Update.exe
+```
+
+Release: https://github.com/alichaabane/Quisora-Releases/releases/tag/v1.0.0%2B4
+
+## 1.0.0+3
+
+```text
+bb009418369e6898a4844cc0c13a1a62c84123d34b18e433039e126a3a98ab2c  Quisora-x64-1.0.0-3-Installer.exe
+5867a3441e9a7e5386682dc1c8c6721aed629153c99d5917e7936d3ab7ed3d7e  Quisora-x64-1.0.0-3-Update.exe
+```
+
+Release: https://github.com/alichaabane/Quisora-Releases/releases/tag/v1.0.0%2B3
+
 ## 1.0.0+2
 
 ```text

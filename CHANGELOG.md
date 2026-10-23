@@ -3,6 +3,21 @@
 The GitHub Release for each tag remains the authoritative download location and
 contains the release-specific notes and `SHA256SUMS.txt`.
 
+## 1.0.0+4 — 2026-10-23
+
+Signed update release for the trusted Quisora update chain.
+
+- Ed25519-signed release manifest and detached signature (`quisora-release-2026-01`).
+- Installer and updater packages for `1.0.0+4`.
+- Installer/updater remain unsigned for Windows Authenticode.
+
+## 1.0.0+3 — 2026-10-23
+
+Trusted baseline release containing the pinned production release public key.
+
+- Install this baseline manually before using in-app signed updates.
+- Installer and updater packages for `1.0.0+3`.
+
 ## 1.0.0+2 — 2026-10-23
 
 Update Center detection build. No new features.

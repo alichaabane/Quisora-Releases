@@ -19,7 +19,7 @@ authentication files, credentials or user data.
 
 ## Download
 
-Latest release: **[Quisora 1.0.0+2](https://github.com/alichaabane/Quisora-Releases/releases/tag/v1.0.0%2B2)**
+Latest release: **[Quisora 1.0.0+4](https://github.com/alichaabane/Quisora-Releases/releases/tag/v1.0.0%2B4)**
 
 Use only the assets attached to the official Releases page:
 
