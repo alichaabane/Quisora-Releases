@@ -3,6 +3,20 @@
 The GitHub Release for each tag remains the authoritative download location and
 contains the release-specific notes and `SHA256SUMS.txt`.
 
+## 1.0.0+2 — 2026-10-23
+
+Update Center detection build. No new features.
+
+- Application version `1.0.0+2`.
+- Installer and updater packages for Update Center detection testing.
+- Packages are unsigned; automatic in-app installation remains disabled.
+
+Artifacts:
+
+- `Quisora-x64-1.0.0-2-Installer.exe`
+- `Quisora-x64-1.0.0-2-Update.exe`
+- `SHA256SUMS.txt`
+
 ## 1.0.0+1 — 2026-10-23
 
 First official Windows release.
