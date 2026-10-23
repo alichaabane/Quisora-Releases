@@ -1,7 +1,13 @@
 # Release checksums
 
-No release checksums have been published yet. There is no public Quisora release
-at this time.
+## 1.0.0+1
+
+```text
+0a701982bd42a703d267189374d1b3502ee7fd2ce1f2fcaaa76b831590b78a74  Quisora-x64-1.0.0-1-Installer.exe
+a17ee38d75fda7ea678e9f4dde0a9e26af60e93f1c0f9cb915cd072b03e12e7f  Quisora-x64-1.0.0-1-Update.exe
+```
+
+Release: https://github.com/alichaabane/Quisora-Releases/releases/tag/v1.0.0%2B1
 
 For each published release, download `SHA256SUMS.txt` from the same GitHub
 Release as the executables. It contains one line per artifact:

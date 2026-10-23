@@ -19,8 +19,9 @@ authentication files, credentials or user data.
 
 ## Download
 
-No public release has been published yet. When a release is published, use only
-the assets attached to the official Releases page:
+Latest release: **[Quisora 1.0.0+1](https://github.com/alichaabane/Quisora-Releases/releases/tag/v1.0.0%2B1)**
+
+Use only the assets attached to the official Releases page:
 
 **https://github.com/alichaabane/Quisora-Releases/releases**
 
