@@ -1,0 +1,32 @@
+# Release binaries belong in GitHub Releases, not in git history.
+*.exe
+*.msi
+*.msix
+*.appx
+*.zip
+*.7z
+*.dll
+*.pdb
+
+# Never commit credentials, signing material or authentication files.
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+*.jks
+*.keystore
+auth.json
+
+# Never commit user or provider state.
+*.sqlite
+*.sqlite3
+*.db
+codex-accounts/
+codex_pending_resets.json
+codex_quota_alerts.json
+preferences.json
+history_retention.json
