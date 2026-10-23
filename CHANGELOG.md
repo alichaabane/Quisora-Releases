@@ -3,6 +3,14 @@
 The GitHub Release for each tag remains the authoritative download location and
 contains the release-specific notes and `SHA256SUMS.txt`.
 
+## 1.0.0+5 — 2026-10-23
+
+Signed update release adding the Windows startup launch setting.
+
+- Settings → General & Desktop → **Launch Quisora when Windows starts** (HKCU Run).
+- Signed manifest and detached signature (`quisora-release-2026-01`).
+- Installer and updater packages for `1.0.0+5`.
+
 ## 1.0.0+4 — 2026-10-23
 
 Signed update release for the trusted Quisora update chain.
