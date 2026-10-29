@@ -1,5 +1,13 @@
 # Quisora changelog
 
+## 1.0.0+16 — 2026-10-29
+
+Signed stable release adding read-only Gemini Developer API model metadata and a searchable model catalog. Gemini usage, inference eligibility and remaining quota stay unavailable. File-backed SQLite now runs off the Flutter UI isolate. The installer and full-replacement updater preserve existing user data and credentials.
+
+- Windows x64 installer and updater.
+- Ed25519-signed release manifest and detached signature.
+- Installer and updater are not Authenticode-signed.
+
 The GitHub Release for each tag remains the authoritative download location and
 contains the release-specific notes and `SHA256SUMS.txt`.
 
