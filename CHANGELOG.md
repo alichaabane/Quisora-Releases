@@ -1,5 +1,16 @@
 # Quisora changelog
 
+## 1.0.0+19 — 2026-10-29
+
+Signed stable Windows x64 release eliminating repeated Command Center projection work.
+
+- About 25× faster in these measured runs: large Codex histories decode in bounded worker isolates instead of blocking the Flutter UI isolate.
+- Each account projection is cached; unrelated controller notifications no longer rebuild details and 30-day analytics for every account.
+- Account switching renders the cached projection immediately while fresh local data loads.
+- Full history, alert accuracy, provider isolation and monitoring behavior are preserved.
+- Installer and full-replacement updater preserve existing user data and credentials.
+- Ed25519-signed release manifest (`quisora-release-2026-01`); executables are not Authenticode-signed.
+
 ## 1.0.0+18 — 2026-10-29
 
 Signed stable Windows x64 release with clearer provider identity and Copilot billing availability.
