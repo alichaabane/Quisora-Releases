@@ -1,5 +1,32 @@
 # Quisora changelog
 
+## 1.0.0+18 — 2026-10-29
+
+Signed stable Windows x64 release with clearer provider identity and Copilot billing availability.
+
+- Local provider marks include the supplied transparent DeepSeek and OpenAI/Codex images; GitHub, Gemini and hidden future-use Claude marks remain local assets.
+- Copilot identity verification is distinct from personal billing access. Empty reports, unsupported rows and reported AI-credit rows stay distinct; 403/404 do not claim Copilot Free or organizational funding.
+- Account order can be changed on Accounts and is shared by account menus and dashboard navigation.
+- Installer and full-replacement updater preserve existing user data and credentials.
+- Ed25519-signed release manifest (`quisora-release-2026-01`); executables are not Authenticode-signed.
+
+## 1.0.0+17 — 2026-10-29
+
+Signed stable Windows release combining provider-confirmed Codex reset success alerts and official personal GitHub Copilot AI-credit billing monitoring.
+
+- Reset success alerts appear in-app and use the Windows notification path after confirmation from fresh provider data.
+- Copilot verifies the supplied fine-grained token's account identity and shows personal billing/model consumption. Organization-funded usage, remaining entitlement and reset dates are unavailable; SDK quota access is deferred.
+- Installer and full-replacement updater preserve existing user data and credentials.
+- Ed25519-signed release manifest; executables are not Authenticode-signed.
+
+## 1.0.0+16 — 2026-10-29
+
+Signed stable release adding read-only Gemini Developer API model metadata and a searchable model catalog. Gemini usage, inference eligibility and remaining quota stay unavailable. File-backed SQLite now runs off the Flutter UI isolate. The installer and full-replacement updater preserve existing user data and credentials.
+
+- Windows x64 installer and updater.
+- Ed25519-signed release manifest and detached signature.
+- Installer and updater are not Authenticode-signed.
+
 The GitHub Release for each tag remains the authoritative download location and
 contains the release-specific notes and `SHA256SUMS.txt`.
 
