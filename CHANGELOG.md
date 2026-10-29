@@ -1,5 +1,15 @@
 # Quisora changelog
 
+## 1.0.0+18 — 2026-10-29
+
+Signed stable Windows x64 release with clearer provider identity and Copilot billing availability.
+
+- Local provider marks include the supplied transparent DeepSeek and OpenAI/Codex images; GitHub, Gemini and hidden future-use Claude marks remain local assets.
+- Copilot identity verification is distinct from personal billing access. Empty reports, unsupported rows and reported AI-credit rows stay distinct; 403/404 do not claim Copilot Free or organizational funding.
+- Account order can be changed on Accounts and is shared by account menus and dashboard navigation.
+- Installer and full-replacement updater preserve existing user data and credentials.
+- Ed25519-signed release manifest (`quisora-release-2026-01`); executables are not Authenticode-signed.
+
 ## 1.0.0+17 — 2026-10-29
 
 Signed stable Windows release combining provider-confirmed Codex reset success alerts and official personal GitHub Copilot AI-credit billing monitoring.
