@@ -1,5 +1,14 @@
 # Quisora changelog
 
+## 1.0.0+17 — 2026-10-29
+
+Signed stable Windows release combining provider-confirmed Codex reset success alerts and official personal GitHub Copilot AI-credit billing monitoring.
+
+- Reset success alerts appear in-app and use the Windows notification path after confirmation from fresh provider data.
+- Copilot verifies the supplied fine-grained token's account identity and shows personal billing/model consumption. Organization-funded usage, remaining entitlement and reset dates are unavailable; SDK quota access is deferred.
+- Installer and full-replacement updater preserve existing user data and credentials.
+- Ed25519-signed release manifest; executables are not Authenticode-signed.
+
 ## 1.0.0+16 — 2026-10-29
 
 Signed stable release adding read-only Gemini Developer API model metadata and a searchable model catalog. Gemini usage, inference eligibility and remaining quota stay unavailable. File-backed SQLite now runs off the Flutter UI isolate. The installer and full-replacement updater preserve existing user data and credentials.
