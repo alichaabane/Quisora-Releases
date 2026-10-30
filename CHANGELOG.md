@@ -1,5 +1,12 @@
 # Quisora changelog
 
+## 1.0.0+20 — 2026-10-30
+
+- Provider Health guides manual Codex CLI updates and offers a copyable command for verified npm-managed installations.
+- The Windows tray starts with the full menu and uses the documented foreground and dismissal sequence.
+- GitHub Copilot quota and Gemini Cloud usage remain unavailable; feasibility work does not enable real monitoring.
+- Installer and full-replacement updater preserve existing user data and credentials.
+
 ## 1.0.0+19 — 2026-10-29
 
 Signed stable Windows x64 release eliminating repeated Command Center projection work.
