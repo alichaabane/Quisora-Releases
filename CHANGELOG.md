@@ -1,5 +1,17 @@
 # Quisora changelog
 
+## 1.0.0+21 — 2026-11-04
+
+Account-scoped Usage Forecasts for Codex, DeepSeek, GitHub Copilot and Gemini, with measured history, conservative projection gates and honest unavailable states.
+
+- Codex five-hour and weekly quota histories stay independent; reset boundaries, gaps, corrections and moving future estimates are not mixed into usage history.
+- DeepSeek shows reported USD/CNY balance history, measured decreases and marked top-ups; projections are capped at the available balance and missing intervals stay distinct.
+- Current-cycle and historical on-pace projections are separately labelled; insufficient evidence shows `Collecting data` instead of a misleading forecast.
+- The Usage Forecasts reload action refreshes the account selected on that page.
+- Copilot and Gemini quota/reset data and model-attributed costs remain unavailable where not provided. Native macOS acceptance remains unverified.
+- Installer and full-replacement updater preserve existing user data and credentials.
+- Ed25519-signed release manifest (`quisora-release-2026-01`); executables are not Authenticode-signed.
+
 ## 1.0.0+20 — 2026-10-30
 
 - Provider Health guides manual Codex CLI updates and offers a copyable command for verified npm-managed installations.
